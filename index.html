@@ -104,9 +104,12 @@
         <section id="Menu-coffees" class="menu"></section>
         <section id="Reservation-table" class="reservation">
           <div class="form-container">
-            <form class="reservation__form">
+            <div class="reservation">
               <h3 class="reservation__title">Book a table</h3>
-              <fieldset class="form fieldset_name">
+            </div>
+            <form class="form">
+              <form class="reservation__form"></form>
+              <fieldset class="">
                 <label for="name" class="form__label">Name *</label>
                 <input
                   type="text"
@@ -161,7 +164,7 @@
                 <input
                   type="checkbox"
                   class="form__checkbox"
-                  name="I agree with the terms of use"
+                  name="agree"
                   id="agree"
                 />
                 <label for="agree" class="form__label"
