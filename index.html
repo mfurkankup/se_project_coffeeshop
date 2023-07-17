@@ -107,9 +107,8 @@
             <div class="reservation">
               <h3 class="reservation__title">Book a table</h3>
             </div>
-            <form class="form">
-              <form class="reservation__form"></form>
-              <fieldset class="">
+            <form class="reservation__form">
+              <fieldset class="form__fieldset">
                 <label for="name" class="form__label">Name *</label>
                 <input
                   type="text"
@@ -120,7 +119,7 @@
                   required
                 />
               </fieldset>
-              <fieldset class="form fieldset_number">
+              <fieldset class="form__fieldset">
                 <label for="number" class="form__label"
                   >Number of guests*</label
                 >
@@ -135,7 +134,7 @@
                   required
                 />
               </fieldset>
-              <fieldset class="form fieldset_date">
+              <fieldset class="form__fieldset">
                 <label for="datetime-local" class="form__label"
                   >Date & time *</label
                 >
@@ -146,7 +145,7 @@
                   name="datetime-local"
                 />
               </fieldset>
-              <fieldset class="form fieldset_email">
+              <fieldset class="form__fieldset">
                 <label for="email" class="form__label">Your email *</label>
                 <input
                   type="email"
@@ -157,10 +156,10 @@
                   required
                 />
               </fieldset>
-              <fieldset class="form fieldset_button">
+              <fieldset class="form__fieldset">
                 <button type="submit" class="form__button">Book a table</button>
               </fieldset>
-              <fieldset class="form fieldset_checkbox">
+              <fieldset class="form__fieldset">
                 <input
                   type="checkbox"
                   class="form__checkbox"
