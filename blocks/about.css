@@ -28,7 +28,7 @@
   display: block;
 }
 
-.about__circle_animation_blurred {
+.about__circle {
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
