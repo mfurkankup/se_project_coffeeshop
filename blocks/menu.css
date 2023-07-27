@@ -28,24 +28,3 @@
   margin: auto;
   padding-top: 24px;
 }
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  margin-bottom: 32px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list-item {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
