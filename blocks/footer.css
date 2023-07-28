@@ -26,6 +26,7 @@
   color: #ffffff;
   margin-bottom: 20px;
   margin-top: 0;
+  margin-left: 40px;
 }
 
 .footer__social-link {
@@ -46,6 +47,10 @@
   width: 16px;
 }
 
+.footer__list {
+  list-style: none;
+}
+
 .footer__copyright {
   font-family: "Inter";
   font-style: normal;
@@ -53,6 +58,5 @@
   font-size: 16px;
   line-height: 20px;
   margin-top: 108px;
-  margin-bottom: 60px;
   color: #ffffff;
 }

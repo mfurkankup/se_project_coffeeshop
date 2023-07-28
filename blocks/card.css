@@ -1,5 +1,7 @@
 .card {
   width: 540px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card__title {
@@ -9,6 +11,11 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0;
+}
+
+.card__list {
+  padding-left: 0;
 }
 
 .card__list-item {
@@ -17,4 +24,13 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.card__list-divider {
+  display: flex;
+  flex-grow: 1;
+  border-bottom: 1px solid;
 }
