@@ -10,6 +10,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -20,13 +22,14 @@
   letter-spacing: -0.6px;
   font-family: "Inter";
   font-weight: 500;
+  color: black;
 }
 
 .header__description {
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
-  margin: 20px 0 0;
+  margin: 28px 0 0;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -46,8 +49,8 @@
   position: absolute;
   width: 646px;
   height: 568px;
-  margin-top: 124px;
-  margin-right: 5px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
@@ -64,4 +67,11 @@
 
 .header__paragraph {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
