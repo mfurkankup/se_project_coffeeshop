@@ -14,3 +14,6 @@
   line-height: 52px;
   margin-bottom: 80px;
 }
+.reservation__title:last-child {
+  margin-top: 0;
+}

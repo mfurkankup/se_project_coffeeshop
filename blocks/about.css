@@ -11,7 +11,7 @@
 }
 
 .about__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -39,6 +39,10 @@
 .about__paragraph {
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
