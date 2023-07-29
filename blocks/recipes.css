@@ -11,6 +11,7 @@
   display: flex;
   gap: 40px;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .recipes__title {

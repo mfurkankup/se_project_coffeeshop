@@ -23,6 +23,7 @@
   font-family: "Inter";
   font-weight: 500;
   color: black;
+  z-index: 1;
 }
 
 .header__description {
@@ -33,6 +34,7 @@
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -74,4 +76,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
 }

@@ -102,70 +102,66 @@
         </section>
         <section id="Reservation-table" class="reservation">
           <form class="form-container">
-              <h3 class="reservation__title">Book a table</h3>
-            <form class="reservation__form form">
-              <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name *</label>
-                <input
-                  type="text"
-                  class="form__input"
-                  id="name"
-                  name="name"
-                  placeholder="Name Surname"
-                  required
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <label for="number" class="form__label"
-                  >Number of guests *</label
-                >
-                <input
-                  type="number"
-                  class="form__input"
-                  min="1"
-                  max="8"
-                  id="number"
-                  name="number"
-                  placeholder="1-8"
-                  required
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <label for="datetime-local" class="form__label"
-                  >Date & time *</label
-                >
-                <input
-                  type="datetime-local"
-                  class="form__input"
-                  id="datetime-local"
-                  name="datetime-local"
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <label for="email" class="form__label">Your email *</label>
-                <input
-                  type="email"
-                  class="form__input"
-                  id="email"
-                  name="email"
-                  placeholder="email@email.com"
-                  required
-                />
-              </fieldset>
-              <fieldset class="form__fieldset">
-                <button type="submit" class="form__button">Book a table</button>
-              </fieldset>
+            <h3 class="reservation__title">Book a table</h3>
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Name Surname"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="number" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                id="number"
+                name="number"
+                placeholder="1-8"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="datetime-local" class="form__label"
+                >Date & time *</label
+              >
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="datetime-local"
+                name="datetime-local"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
 
-              <label class="form__label form__label_type_checkbox">
-                <input
-                  type="checkbox"
-                  class="form__checkbox"
-                  name="agree"
-                  id="agree"
-                />I agree with the terms of use</label
-                >
-              </form>
-            </form>
+            <label class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                name="agree"
+                id="agree"
+              />I agree with the terms of use</label
+            >
+          </form>
         </section>
         <section id="Menu-coffees" class="menu">
           <h4 class="menu__title">Menu</h4>
@@ -259,11 +255,9 @@
               cups!
             </p>
           </div>
-          <div class="about__circle">
-          </div>
-          <div class="about__circle about__circle_animation_blurred"
-></div>
- </section>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__columns">
@@ -273,27 +267,33 @@
               alt="Coffeeshop logo"
               class="footer__logo"
             />
-            </div>
-            <div class="footer__content">
+          </div>
+          <div class="footer__content">
             <h6 class="footer__social-heading">Social Media</h6>
             <ul class="footer__list">
-            <li class="footer__list-item">
-              <a class="footer__social-link" href="#">
-                <img
-                src="./images/facebook_white.svg"
-                alt="facebook"
-                class="footer__social-icon"/>Facebook</a></li>
-                <li class="footer__list-item">
-                  <a class="footer__social-link" href="#">
-                    <img
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
                     src="./images/instagram_white.svg"
                     alt="instagram"
-                    class="footer__social-icon"/>Instagram</a></li>
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
             </ul>
-            </div>
-      </div>
-      <p class="footer__copyright">@ 2023 Furkan Kupoglu</p>
-      </div>
+          </div>
+        </div>
+        <p class="footer__copyright">@ 2023 Furkan Kupoglu</p>
       </footer>
+    </div>
   </body>
 </html>
