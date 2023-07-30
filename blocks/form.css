@@ -72,6 +72,7 @@
 
 .form__button:hover {
   opacity: 70%;
+  transition: ease-in-out 0.2s;
 }
 
 .form__checkbox {
