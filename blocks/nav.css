@@ -28,7 +28,7 @@
   text-decoration: none;
 }
 
-.nav__links:hover {
+.nav__link:hover {
   color: #2f80ed;
   transition: 0.2s;
 }
